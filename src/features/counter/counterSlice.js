@@ -62,7 +62,7 @@ export const counterSlice = createSlice({
                 ...v.todos,
                 {
                   ...state.list.todos,
-                  completed: boolean,
+                  completed: true,
                 },
               ],
             }
